@@ -20,11 +20,11 @@ default-monotonic-clock: monotonic-clock
 ```
 
 ## `default-wall-clock`
+```wit
 /// Return a default wall clock, suitable for general-purpose application
 /// needs.
 ///
 /// This allocates a new handle, so applications with frequent need of a clock
 /// handle should call this function once and reuse the handle instead of
-```wit
 default-wall-clock: wall-clock
 ```
